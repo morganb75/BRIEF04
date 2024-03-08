@@ -6,7 +6,7 @@ CREATE TABLE movie(
     title VARCHAR(255) NOT NULL,
     year_released INT,
     rating FLOAT,
-    duration TIME,
+    duration INT,
     budget INT,
     box_office BIGINT,
     distribution_company_id INT,
