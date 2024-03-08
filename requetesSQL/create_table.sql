@@ -4,15 +4,14 @@ DROP TABLE IF EXISTS *;
 CREATE TABLE movie(
     id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
-    year_released DATE,
+    year_released INT,
     rating FLOAT,
     duration TIME,
     budget INT,
     box_office BIGINT,
     distribution_company_id INT,
     director_id INT NOT NULL,
-    genre_id INT NOT NULL,
-    language_id INT NOT NULL
+    genre_id INT NOT NULL
 );
 
 /*================TABLE distribution_company================*/
