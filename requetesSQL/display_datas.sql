@@ -1,12 +1,12 @@
 /*===============  AFFICHAGE DE LA TOTALITE DES FILMS  ================*/
 
-SELECT DISTINCT
-    m.title AS title,
-    g.type AS genre,
+SELECT 
+    m.title AS Title,
+    g.type AS Genre,
+    dc.name AS Company,
+    d.first_name||' '||d.name AS Director,
     m.year_released AS year,
-    dc.name AS productor,
-    d.first_name||' '||d.name AS director,
-    STRING_AGG(l.lang, ', ') AS language 
+    STRING_AGG(l.lang, ', ') AS Lang 
 FROM movie m
     LEFT JOIN distribution_company dc
     ON m.distribution_company_id = dc.id
@@ -19,4 +19,6 @@ FROM movie m
     INNER JOIN language l
     ON l.id=ml.language_id
 GROUP BY
-    m.title, g.type, m.year_released, dc.name, d.first_name, d.name;
+    m.title, g.type, m.year_released, dc.name, d.first_name, d.name
+ORDER BY 
+    m.year_released DESC;

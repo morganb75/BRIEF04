@@ -1,0 +1,105 @@
+ id |         name          
+----+-----------------------
+  1 | Columbia Pictures
+  2 | Paramount Pictures
+  3 | Warner Bros
+  4 | Orion Pictures
+  5 | Universal Pictures
+  6 | New Line Cinema
+  7 | Miramax Films
+  8 | United Artists
+  9 | Gaumont Film Company
+ 10 | The Weinstein Company
+ 11 | Wild Bunch
+(11 lignes)
+
+ id |   type   
+----+----------
+  1 | Drama
+  2 | Crime
+  3 | Action
+  4 | Fantasy
+  5 | Western
+  6 | Comedy
+  7 | Thriller
+  8 | War
+  9 | Romance
+ 10 | Horror
+ 11 | Silent
+(11 lignes)
+
+ id |   lang   
+----+----------
+  1 | English
+  2 | Sicilian
+  3 | German
+  4 | Yddish
+  5 | Italian
+  6 | Spanish
+  7 | French
+(7 lignes)
+
+ id |   name    |  first_name  
+----+-----------+--------------
+  1 | Darabont  | Frank
+  2 | Coppola   | Francis Ford
+  3 | Nolan     | Christopher
+  4 | Lumet     | Sydney
+  5 | Spielberg | Steven
+  6 | Jackson   | Peter
+  7 | Tarentino | Quentin
+  8 | Leone     | Sergio
+  9 | Zemeckis  | Robert
+ 10 | Nakache   | Olivier
+ 11 | Demme     | Jonathan
+ 12 | Kechiche  | Abdellatif
+(12 lignes)
+
+ id |                       title                       | rating |  budget   | box_office | distribution_company_id | director_id | genre_id | year_released | duration 
+----+---------------------------------------------------+--------+-----------+------------+-------------------------+-------------+----------+---------------+----------
+  1 | The Shawshank Redemption                          |    9.2 |  25000000 |   73300000 |                       1 |           1 |        1 |          1994 |      142
+  2 | The Godfather                                     |    9.2 |   7200000 |  291000000 |                       2 |           2 |        2 |          1972 |      175
+  3 | The Dark Knight                                   |      9 | 185000000 | 1006000000 |                       3 |           3 |        3 |          2008 |      152
+  4 | The Godfather Part II                             |      9 |  13000000 |   93000000 |                       2 |           2 |        2 |          1974 |      202
+  5 | 12 Angry Men                                      |      9 |    340000 |    2000000 |                       4 |           4 |        1 |          1957 |       96
+  6 | Schindler's List                                  |    8.9 |  22000000 |  322200000 |                       5 |           5 |        1 |          1993 |      195
+  7 | The Lord of the Rings: The Return of the King     |    8.9 |  94000000 | 1146000000 |                       6 |           6 |        4 |          2003 |      201
+  8 | Pulp Fiction                                      |    8.8 |   8500000 |  213900000 |                       7 |           7 |        2 |          1994 |      154
+  9 | The Lord of the Rings: The Fellowship of the Ring |    8.8 |  93000000 |  898200000 |                       6 |           6 |        4 |          2001 |      178
+ 10 | The Good, the Bad and the Ugly                    |    8.8 |   1200000 |   38900000 |                       8 |           8 |        5 |          1966 |      161
+ 11 | Forrest Gump                                      |    8.7 |  55000000 |  677400000 |                       5 |           9 |        1 |          1994 |      142
+ 12 | Intouchables                                      |    8.5 |  10800000 |  426600000 |                       9 |          10 |        6 |          2011 |      112
+ 13 | The Silence of the Lambs                          |    8.6 |  19000000 |  272700000 |                       4 |          11 |        4 |          1991 |      118
+ 14 | Inglourious Bastards                              |    8.4 |  70000000 |  321500000 |                      10 |           7 |        8 |          2009 |      153
+ 15 | La Vie d'Adäle                                    |    7.7 |   4000000 |   19000000 |                      11 |          12 |        9 |          2013 |      180
+ 16 | Pulp Fiction                                      |    8.8 |   8500000 |  213900000 |                       7 |           7 |        2 |          1994 |      154
+(16 lignes)
+
+ movie_id | language_id 
+----------+-------------
+        1 |           1
+        2 |           1
+        3 |           1
+        4 |           1
+        4 |           2
+        5 |           1
+        6 |           1
+        6 |           3
+        6 |           4
+        7 |           1
+        8 |           1
+        9 |           1
+       10 |           1
+       10 |           5
+       10 |           6
+       11 |           1
+       12 |           7
+       13 |           1
+       14 |           1
+       14 |           3
+       14 |           5
+       14 |           7
+       15 |           7
+       16 |           1
+(24 lignes)
+
